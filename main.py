@@ -8,6 +8,7 @@ def is_installed(app_name):
     possible_paths = [
         os.environ.get("ProgramFiles", ""),
         os.environ.get("ProgramFiles(x86)", ""),
+        os.environ.get("LOCALAPPDATA")
     ]
     for base_path in possible_paths:
         if base_path and os.path.exists(base_path):
