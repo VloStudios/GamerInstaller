@@ -1,0 +1,5 @@
+{
+  "Discord": "https://discord.com/api/download?platform=win",
+  "Steam": "https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe",
+  "OBS Studio": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-29.1.3-Full-Installer-x64.exe"
+}
