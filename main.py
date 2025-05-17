@@ -47,7 +47,7 @@ def show_menu(apps):
     return selected
 
 def main():
-    print("🎮 Welcome to Gamer Setup Wizard v1.0")
+    print("🎮 Welcome to Gamer Setup Wizard v1.0.1")
     print("⚡ Preparing your gamer destiny...")
 
     with open("apps.json", "r") as f:
